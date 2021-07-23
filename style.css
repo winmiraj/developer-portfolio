@@ -6,9 +6,15 @@ h1 {font-size:50px;}
 
 .color-orange {color:rgb(238, 163, 24);}
 
-section {display:flex;}
-.half-width {width:45%; padding-left:5%;}
+section {
+    display:flex;
+    margin-bottom: 150px;
+}
+.half-width {width:45%; padding-left:3%; padding-right: 7%; }
 .half-width img {width:80%;}
+ p{
+  padding-right: 10px;
+}
 .link-button {
     text-decoration:none; 
     background-color:rgb(247, 211, 8); 
@@ -20,4 +26,9 @@ section {display:flex;}
 .top-banar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
