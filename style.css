@@ -6,11 +6,12 @@ h1 {font-size:50px;}
 
 .color-orange {color:rgb(238, 163, 24);}
 
-section {
+.flexible-container {
     display:flex;
     margin-bottom: 150px;
+    
 }
-.half-width {width:45%; padding-left:3%; padding-right: 7%; }
+.half-width {width:45%; padding: 5%; }
 .half-width img {width:80%;}
  p{
   padding-right: 10px;
@@ -31,4 +32,26 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.box-left-1{
+    border-image:linear-gradient(yellow,rgb(248, 157, 10)) ;
+    border-image-slice: 1;
+    border-left:10px solid ;
+    margin-left: 100px;
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 10px;
+    
+}
+.box-right-2{
+    border-left:10px solid ;
+    border-image: linear-gradient(#3c67f6, #03f7ff);
+    border-image-slice: 1;
+    margin:0% 5% 0% 5%;
+    box-shadow: 5px 5px 30px  gray;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
